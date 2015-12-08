@@ -1,0 +1,188 @@
+#archive-stalker-next,#archive-stalker-prev
+{
+    outline:none;
+}
+#archive-stalker-button-container
+{
+    margin:auto;
+    text-align: center;
+}
+#archive-stalker-wrapper
+{
+    position:relative;
+    border-radius: 10px;
+    background-color: rgba(192,192,192,0.25);
+    margin:10px;
+    padding:5px;
+
+}
+
+#archive-stalker-container
+{
+   height:550px;
+   overflow-y: scroll;
+}
+
+
+#archive-stalker-button-container a {
+}
+
+#archive-stalker-loading-img
+{
+    position:absolute;
+    top:45%;
+    left:45%;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.archive-stalker-main-td
+{
+    width:85%;
+    line-height:1.45;
+    font-size:16px;
+}
+
+.archive-stalker-blog-icon-container
+{
+}
+
+.archive-stalker-blog-icon img
+{
+    margin: auto;
+}
+
+.archive-stalker-blog-data-holder
+{
+    position:absolute;
+    width:600px;
+    z-index:1;
+    background-color:rgba(192,192,192,0.85);
+}
+.archive-stalker-blog-data-holder p
+{
+    padding:40px;
+    overflow-y: scroll;
+}
+
+.archive-stalker-close-window 
+{
+    position:relative;
+}
+
+.archive-stalker-close-window img
+{
+    width:5%;
+    margin-left:95%;
+    padding:4px;
+}
+.archive-stalker-window-wrapper
+{
+    position:absolute;
+    padding:20px;
+    background-color:grey;
+    margin:20px;
+    border-color:black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.archive-stalker-window-text
+{
+    background-color:white;
+    padding:10px;
+    width:600px;
+    height:500px;
+    overflow-y: scroll;
+}
+
+.archive-stalker-window-blog-close img
+{
+    width:5%;
+    position:absolute;
+    right:3.5%;
+    top:3.5%;
+}
+
+.archive-stalker-window-blog-title
+{
+    position:relative;
+    font-size:125%;
+    color:white;
+    top:0;
+}
+.archive-stalker-window-blog-info
+{
+     font-size:80%;
+     color:whitesmoke;
+     line-height:1.25;
+}
+.archive-stalker-window-blog-date
+{
+    
+}
+.archive-stalker-window-blog-content
+{
+    overflow-y: scroll;
+}
+
+#archive-stalker-dates-container
+{
+    display:inline-block;
+}
+
+#archive-stalker-dates-container:hover > ul
+{
+    display:block;
+}
+
+#archive-stalker-dates-list
+{
+    background-color:grey;
+    position:absolute;
+    padding:10px;
+    min-width:40%;
+    list-style-type: none;
+    display:none;
+}
+
+#archive-stalker-dates-list a
+{
+    color:white;
+}
+
+#archive-stalker-dates-list a:hover
+{
+    color:whitesmoke;
+}
+
+#archive-stalker-dates-container > ul
+{
+    
+}
+
+#archive-stalker-calendar-img-container img
+{
+    height:40px;
+    margin:10px;
+}
+
+.archive-stalker-monthname
+{
+    
+}
+.archive-stalker-year-ul
+{
+    
+}
+
+.archive-stalker-year
+{
+    
+}
+
+.archive-stalker-month-container
+{
+    list-style-type: none;
+}
