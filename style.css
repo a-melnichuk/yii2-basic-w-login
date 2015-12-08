@@ -1,0 +1,31 @@
+#err_div {
+	display:none;
+}
+#err_div >* {
+	vertical-align:middle;
+	display:inline-block;
+}
+#err_msg {
+color:crimson;
+}
+#err_btn {
+padding:2;
+color:white;
+background-color:red;
+text-decoration:none;
+}
+
+#functionInputDiv >*{
+vertical-align:middle;
+display:inline-block;
+}
+
+#canvas {
+border:1px solid #000000;
+margin-left:20px;
+margin-top:20px;
+}
+
+#functionButton{
+	
+}
